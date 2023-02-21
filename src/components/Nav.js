@@ -21,6 +21,7 @@ const Nav = ({onFilterGreased, filterValue, onSorterChange}) => {
 					/>
 				</div>
 				<div>
+					Sort by
 					<select name="sorter" id="sorter"
 						onChange={(e)=>{
 							onSorterChange(e)
